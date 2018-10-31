@@ -1,3 +1,6 @@
+body {
+  background-color: #051e47;
+}
 .App {
   text-align: center;
 }
@@ -20,6 +23,90 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.su-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.su-users-list {
+  width: 85%;
+}
+
+h1 {
+  color: white;
+  font-family: 'Klavika', sans-serif;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  align-self: flex-start;
+  flex: 0 0 auto;
+}
+
+table {
+  background-color: transparent;
+  text-align: left;
+  border-collapse: collapse;
+  width: 100%;
+  color: white;
+}
+
+table th {
+  color: white;
+} 
+
+table tr:nth-child(even) {
+  background: #1de9b6;
+  color: black;
+}
+
+label {
+  margin-bottom: 15px;
+  color: #1de9b6;
+  font-family: 'Klavika', sans-serif;
+}
+
+button {
+    margin-right: 8px;
+    border: 0.5px solid #1de9b6;
+    background: transparent;
+    color: #1de9b6;
+    border-radius: 5px;
+    top:0;
+    bottom: 0;
+    height: 30px; 
+    margin-top: 8px;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-left: 7px;
+}
+
+a {
+  cursor: pointer;
+}
+
+input {
+  outline: 0;
+  padding: 0 5px;
+  margin-top: 25px;
+  border: 0px solid;
+  padding-left: 7px;
+  background-color: transparent;
+  border-bottom: 1px solid white;
+  color: white;
+  height: 30px;
+  width: 200px;
+  box-sizing: border-box;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  margin-left: 7px;
 }
 
 @keyframes App-logo-spin {
